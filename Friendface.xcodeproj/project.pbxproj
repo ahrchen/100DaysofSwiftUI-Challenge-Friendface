@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		EE3A2B7B27E3D3BF00F538BE /* Friendface.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B7927E3D3BF00F538BE /* Friendface.xcdatamodeld */; };
-		EE3A2B8827E3DBEA00F538BE /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B8427E3DBEA00F538BE /* CachedUser+CoreDataClass.swift */; };
-		EE3A2B8927E3DBEA00F538BE /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B8527E3DBEA00F538BE /* CachedUser+CoreDataProperties.swift */; };
-		EE3A2B8A27E3DBEA00F538BE /* CachedFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B8627E3DBEA00F538BE /* CachedFriend+CoreDataClass.swift */; };
-		EE3A2B8B27E3DBEA00F538BE /* CachedFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B8727E3DBEA00F538BE /* CachedFriend+CoreDataProperties.swift */; };
+		EE3A2B8D27E3E01F00F538BE /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B8C27E3E01F00F538BE /* DataController.swift */; };
+		EE3A2B9A27E3F8A900F538BE /* CachedFriend+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B9627E3F8A900F538BE /* CachedFriend+CoreDataClass.swift */; };
+		EE3A2B9B27E3F8A900F538BE /* CachedFriend+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B9727E3F8A900F538BE /* CachedFriend+CoreDataProperties.swift */; };
+		EE3A2B9C27E3F8A900F538BE /* CachedUser+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B9827E3F8A900F538BE /* CachedUser+CoreDataClass.swift */; };
+		EE3A2B9D27E3F8A900F538BE /* CachedUser+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A2B9927E3F8A900F538BE /* CachedUser+CoreDataProperties.swift */; };
 		EEB6252B27E2CEC800534720 /* FriendfaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6252A27E2CEC800534720 /* FriendfaceApp.swift */; };
 		EEB6252D27E2CEC800534720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6252C27E2CEC800534720 /* ContentView.swift */; };
 		EEB6252F27E2CECB00534720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB6252E27E2CECB00534720 /* Assets.xcassets */; };
@@ -23,10 +24,11 @@
 
 /* Begin PBXFileReference section */
 		EE3A2B7A27E3D3BF00F538BE /* Friendface.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Friendface.xcdatamodel; sourceTree = "<group>"; };
-		EE3A2B8427E3DBEA00F538BE /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = "<group>"; };
-		EE3A2B8527E3DBEA00F538BE /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		EE3A2B8627E3DBEA00F538BE /* CachedFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
-		EE3A2B8727E3DBEA00F538BE /* CachedFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EE3A2B8C27E3E01F00F538BE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		EE3A2B9627E3F8A900F538BE /* CachedFriend+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EE3A2B9727E3F8A900F538BE /* CachedFriend+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedFriend+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EE3A2B9827E3F8A900F538BE /* CachedUser+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EE3A2B9927E3F8A900F538BE /* CachedUser+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CachedUser+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EEB6252727E2CEC800534720 /* Friendface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Friendface.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB6252A27E2CEC800534720 /* FriendfaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendfaceApp.swift; sourceTree = "<group>"; };
 		EEB6252C27E2CEC800534720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,11 +69,12 @@
 		EEB6252927E2CEC800534720 /* Friendface */ = {
 			isa = PBXGroup;
 			children = (
-				EE3A2B8427E3DBEA00F538BE /* CachedUser+CoreDataClass.swift */,
-				EE3A2B8527E3DBEA00F538BE /* CachedUser+CoreDataProperties.swift */,
-				EE3A2B8627E3DBEA00F538BE /* CachedFriend+CoreDataClass.swift */,
-				EE3A2B8727E3DBEA00F538BE /* CachedFriend+CoreDataProperties.swift */,
+				EE3A2B9627E3F8A900F538BE /* CachedFriend+CoreDataClass.swift */,
+				EE3A2B9727E3F8A900F538BE /* CachedFriend+CoreDataProperties.swift */,
+				EE3A2B9827E3F8A900F538BE /* CachedUser+CoreDataClass.swift */,
+				EE3A2B9927E3F8A900F538BE /* CachedUser+CoreDataProperties.swift */,
 				EE3A2B7927E3D3BF00F538BE /* Friendface.xcdatamodeld */,
+				EE3A2B8C27E3E01F00F538BE /* DataController.swift */,
 				EEB6252A27E2CEC800534720 /* FriendfaceApp.swift */,
 				EEB6252C27E2CEC800534720 /* ContentView.swift */,
 				EEB6253C27E2DC1800534720 /* DetailedView.swift */,
@@ -161,15 +164,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3A2B8A27E3DBEA00F538BE /* CachedFriend+CoreDataClass.swift in Sources */,
-				EE3A2B8B27E3DBEA00F538BE /* CachedFriend+CoreDataProperties.swift in Sources */,
-				EE3A2B8927E3DBEA00F538BE /* CachedUser+CoreDataProperties.swift in Sources */,
 				EE3A2B7B27E3D3BF00F538BE /* Friendface.xcdatamodeld in Sources */,
+				EE3A2B9B27E3F8A900F538BE /* CachedFriend+CoreDataProperties.swift in Sources */,
+				EE3A2B9D27E3F8A900F538BE /* CachedUser+CoreDataProperties.swift in Sources */,
 				EEB6252D27E2CEC800534720 /* ContentView.swift in Sources */,
+				EE3A2B8D27E3E01F00F538BE /* DataController.swift in Sources */,
 				EEB6252B27E2CEC800534720 /* FriendfaceApp.swift in Sources */,
 				EEB6253D27E2DC1800534720 /* DetailedView.swift in Sources */,
+				EE3A2B9C27E3F8A900F538BE /* CachedUser+CoreDataClass.swift in Sources */,
 				EEB6253927E2CEF300534720 /* User.swift in Sources */,
-				EE3A2B8827E3DBEA00F538BE /* CachedUser+CoreDataClass.swift in Sources */,
+				EE3A2B9A27E3F8A900F538BE /* CachedFriend+CoreDataClass.swift in Sources */,
 				EEB6253B27E2CF8C00534720 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct User: Codable, Identifiable {
+public struct User: Codable, Identifiable {
     enum CodingKeys: String, CodingKey {
         case id = "id"
         case isActive = "isActive"
@@ -21,7 +21,7 @@ struct User: Codable, Identifiable {
         case tags = "tags"
         case friends = "friends"
     }
-    var id: UUID
+    public var id: UUID
     var isActive: Bool
     var name: String
     var age: Int
