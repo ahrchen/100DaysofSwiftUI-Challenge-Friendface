@@ -11,6 +11,9 @@
 		EEB6252D27E2CEC800534720 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6252C27E2CEC800534720 /* ContentView.swift */; };
 		EEB6252F27E2CECB00534720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB6252E27E2CECB00534720 /* Assets.xcassets */; };
 		EEB6253227E2CECB00534720 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB6253127E2CECB00534720 /* Preview Assets.xcassets */; };
+		EEB6253927E2CEF300534720 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6253827E2CEF300534720 /* User.swift */; };
+		EEB6253B27E2CF8C00534720 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6253A27E2CF8C00534720 /* Friend.swift */; };
+		EEB6253D27E2DC1800534720 /* DetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB6253C27E2DC1800534720 /* DetailedView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		EEB6252C27E2CEC800534720 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EEB6252E27E2CECB00534720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEB6253127E2CECB00534720 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEB6253827E2CEF300534720 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		EEB6253A27E2CF8C00534720 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		EEB6253C27E2DC1800534720 /* DetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				EEB6252A27E2CEC800534720 /* FriendfaceApp.swift */,
 				EEB6252C27E2CEC800534720 /* ContentView.swift */,
+				EEB6253C27E2DC1800534720 /* DetailedView.swift */,
+				EEB6253827E2CEF300534720 /* User.swift */,
+				EEB6253A27E2CF8C00534720 /* Friend.swift */,
 				EEB6252E27E2CECB00534720 /* Assets.xcassets */,
 				EEB6253027E2CECB00534720 /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				EEB6252D27E2CEC800534720 /* ContentView.swift in Sources */,
 				EEB6252B27E2CEC800534720 /* FriendfaceApp.swift in Sources */,
+				EEB6253D27E2DC1800534720 /* DetailedView.swift in Sources */,
+				EEB6253927E2CEF300534720 /* User.swift in Sources */,
+				EEB6253B27E2CF8C00534720 /* Friend.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
