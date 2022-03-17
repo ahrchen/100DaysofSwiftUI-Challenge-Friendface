@@ -33,7 +33,6 @@ struct ContentView: View {
         }
             .task {
                 await loadData()
-
             }
     }
     

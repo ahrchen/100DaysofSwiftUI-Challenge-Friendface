@@ -8,19 +8,6 @@
 import Foundation
 
 public struct User: Codable, Identifiable {
-    enum CodingKeys: String, CodingKey {
-        case id = "id"
-        case isActive = "isActive"
-        case name = "name"
-        case age = "age"
-        case company = "company"
-        case email = "email"
-        case address = "address"
-        case about = "about"
-        case registered = "registered"
-        case tags = "tags"
-        case friends = "friends"
-    }
     public var id: UUID
     var isActive: Bool
     var name: String
