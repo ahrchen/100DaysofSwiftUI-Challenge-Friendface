@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(sortDescriptors:[]) var cachedUsers: FetchedResults<CachedUser>
-    @FetchRequest(sortDescriptors:[]) var cachedFriends: FetchedResults<CachedFriend>
+
     @State private var users = [User]()
     
     var body: some View {
@@ -51,7 +51,6 @@ struct ContentView: View {
             }
             await MainActor.run {
                 saveData()
-
             }
 
         } catch {
@@ -62,7 +61,7 @@ struct ContentView: View {
     
     func loadFromCache() {
         for cachedUser in cachedUsers {
-            self.users.append(cachedUser.user)
+            self.users.append(cachedUser.uncachedUser)
         }
     }
     

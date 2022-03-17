@@ -66,7 +66,6 @@ extension CachedUser {
     
     public var friendsArray: [Friend] {
         let cachedSet = friends as? Set<CachedFriend> ?? []
-        print(cachedSet.count)
         var uncachedFriends: [Friend] = []
         for friend in cachedSet {
             uncachedFriends.append(friend.uncachedFriend)
@@ -74,7 +73,7 @@ extension CachedUser {
         return uncachedFriends
     }
     
-    public var user: User {
+    public var uncachedUser: User {
         return User(id: self.wrappedId,
                     isActive: self.isActive,
                     name: self.wrappedName,
